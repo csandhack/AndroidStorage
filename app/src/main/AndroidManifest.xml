@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidStorage">
         <activity
+            android:name=".activities.ScopeStorageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.InternalStorageActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
