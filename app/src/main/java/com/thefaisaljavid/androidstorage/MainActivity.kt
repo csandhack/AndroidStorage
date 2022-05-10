@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.thefaisaljavid.androidstorage.databinding.ActivityMainBinding
 import com.thefaisaljavid.androidstorage.activities.ExternalStorageActivity
-import com.thefaisaljavid.androidstorage.activities.InternalStorageActivity
+import com.thefaisaljavid.androidstorage.activities.internalstorage.InternalStorageActivity
 import com.thefaisaljavid.androidstorage.activities.ScopeStorageActivity
 
 class MainActivity : AppCompatActivity() {
